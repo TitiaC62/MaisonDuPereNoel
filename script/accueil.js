@@ -58,7 +58,7 @@ function updateCountdown() {
     const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
       
     const countdownElement = document.getElementById('countdown');
-    countdownElement.innerHTML = `Plus que ${days}J ${hours}H ${minutes}Min  avant Noël !`;
+    countdownElement.innerHTML = `Plus que ${days}j ${hours}h ${minutes}Min  avant Noël !`;
 }
 
 

@@ -26,14 +26,7 @@
 
 
 @media (min-width :450px) {
-  .background--accueil,
-  .background--calendrier, 
-  .background--entrer,
-  .background--lutins
-    {
-        background-repeat: no-repeat;
-        background-size: 100%;
-    }
+ 
 
 /* Desktop */
 .background--entrer{
@@ -42,6 +35,7 @@
 
 .background--accueil{
     background: url("../assets/images/background/background-accueil.jpg");
+    background-size: 100%;
     
 }
 
