@@ -1,4 +1,4 @@
-
+/* Mobil */
 .background--entrer{
     background: url("../assets/images/background/background-entrer-mobile.jpg")
 }
@@ -19,9 +19,19 @@
     background: url("../assets/images/background/background-lutins-mobile.jpg")
 }
 
+.background--contact{
+    background: url("../assets/images/background/background-contact-mobile.jpg");
+    background-size: 120vw 100vh ;
+    background-repeat: no-repeat;
+   
+}
+
+.background--connexion{
+    background: url("../assets/images/background/background-connexion.jpg");
+}
 
 
-/* Mobil */
+
 
 
 
@@ -53,4 +63,9 @@
     background-size: 100vw 100vh;
     background-repeat: no-repeat
 }
+
+.background--contact{
+    background: url("../assets/images/background/background-contact.jpg");
+}
+
 }
