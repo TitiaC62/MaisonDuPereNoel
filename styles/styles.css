@@ -31,3 +31,11 @@ li{
 svg{
     margin: 15px;
 }
+
+@media (max-width: 450px) {
+    ul.navbar-nav.mr-auto{
+        background-color:#c8c7f065;
+        margin: 0;
+    }
+}
+
