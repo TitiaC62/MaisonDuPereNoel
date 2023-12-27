@@ -44,12 +44,12 @@ h1{
 .modal{
     display: none;
     height: auto;
-    width: auto;
+    width: 560px;
 }
 
 button{
    background: none; 
-   float: inline-end;
+   float:inline-start;
    border: none;
 }
 
@@ -141,6 +141,11 @@ button{
 .modal{
   display: none;
   margin: auto;
+}
+
+iframe{
+  width:560px;
+  height: 315px;
 }
 }
 
