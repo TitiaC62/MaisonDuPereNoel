@@ -12,16 +12,20 @@ h1{
 
 .book{
   height: 5rem;
-  margin-left: 12rem;
-  margin-top: 20rem;
-  position: fixed;
-  z-index: 1;
+  margin: 0 40%;
+
+  
 }
 
 .book:hover{
     animation-name: rotate;
     animation-duration: 0.7s;
     animation-direction: reverse;
+}
+
+iframe{
+  height: auto;
+  width: 90vw;
 }
 
 @keyframes rotate {
@@ -44,7 +48,8 @@ h1{
 .modal{
     display: none;
     height: auto;
-    width: 560px;
+    width: 280px;
+    z-index: 1;
 }
 
 button{
