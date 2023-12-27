@@ -48,7 +48,7 @@ iframe{
 .modal{
     display: none;
     height: auto;
-    width: 280px;
+    width: 100vw;
     z-index: 1;
 }
 
