@@ -1,17 +1,22 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const params = new URLSearchParams(window.location.search);
-    const data = params.get('data');
 
-    if (data) {
-    let prenom = "Bonjour " + decodeURIComponent(data);
-        let prenomElement = document.getElementById('prenom');
-        prenomElement.textContent = prenom;
-    } else {
-        let userInput = prompt("Entrez votre prénom :");
+// Vérifie si le prénom est déjà enregistré dans le stockage local
+const savedName = localStorage.getItem('user_name');
 
-        if (userInput !== null) {
-            window.location.href = "accueil.html?data=" + encodeURIComponent(userInput);
-        }
-    }
-});
+if (savedName) {
+    // Utilise le prénom enregistré s'il existe
+     let prenomElement = document.getElementById('prenom');
+        prenomElement.textContent = (`Bonjour ${savedName} !`);
+} else {
+    // Propose à l'utilisateur de saisir son prénom
+    const userName = prompt('Entrez votre prénom :');
+    let prenomElement = document.getElementById('prenom');
+        prenomElement.textContent = (`Bonjour ${userName} !`);
+
+    // Enregistre le prénom dans le stockage local
+    localStorage.setItem('user_name', userName);
+
+    console.log();
+}
+
+
 

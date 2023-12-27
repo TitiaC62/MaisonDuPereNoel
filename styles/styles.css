@@ -2,14 +2,6 @@
     margin: 0;
 }
 
-header{
-    background-color:#c8c7f065;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    
-}
 
 a{
     text-decoration: none;
@@ -25,3 +17,17 @@ li{
     
 }
 
+.navbar{
+    height: 4rem;
+    background-color:#c8c7f065;
+    color: white;
+}
+
+.navbar-collapse{
+    display: flex;
+    justify-content: flex-end;
+}
+
+svg{
+    margin: 15px;
+}

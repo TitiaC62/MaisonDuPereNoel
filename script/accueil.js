@@ -80,7 +80,8 @@ const playSong = () => {
 const santa = document.querySelector('.santa')
     santa.addEventListener('mouseover', () => {
            playSong()
-           timeoutId = setTimeout(() => {
-                stopSong()
-            }, 2500)
+          
         })
+
+
+
