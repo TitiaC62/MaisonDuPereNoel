@@ -66,7 +66,7 @@ button{
 
 #txt-welcom{
   font-family: Mountains of Christmas;
-  font-size: 45px;
+  font-size: 40px;
   text-align: center;
   color: red;
   text-shadow: 1px 1px 2px green, 0 0 1em blue, 0 0 0.2em green;
@@ -98,7 +98,7 @@ button{
 }
 
 .santa{
-    height: 50vh;
+    height: 45vh;
     position: fixed;
     bottom: 0;
     right: 1em;
