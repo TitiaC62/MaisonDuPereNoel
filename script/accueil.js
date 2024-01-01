@@ -16,7 +16,7 @@ const idInterval = setInterval(function(){
 }, interval)
 
 //Book : renvoi vers la video de l'histoire de Noël
- const book = document.querySelector(".book")
+ const reindeer = document.querySelector(".reindeer")
 
  document.querySelector('.video_click').addEventListener('click', function() {
     document.querySelector('.video').style.display = 'block';
