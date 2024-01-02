@@ -98,11 +98,11 @@ button{
 }
 
 .santa{
-    height: 45vh;
-    position: fixed;
-    bottom: 0;
-    right: 1em;
-    
+  height: 40vh;
+  position: fixed;
+  bottom: 0;
+  right: 1em;
+  
 }
 
 .gift{
@@ -165,8 +165,29 @@ margin-left: 10vh;
  
 }
 
+.santa{
+  height: 55vh;
+  position: fixed;
+  bottom: 0;
+  right: 1em;
+  
+}
+
 .pictures{
   display: flex;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+.snowflake {
+  position: absolute;
+  background-color: #fff;
+  border-radius: 50%;
+  pointer-events: none;
+  user-select: none;
+  filter: blur(3px);
 }
 }
 
