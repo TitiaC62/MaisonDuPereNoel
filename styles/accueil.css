@@ -111,7 +111,9 @@ button{
     display: flex;
   }
 
-
+.christmas-tree{
+  display: none;
+}
 /* ______________________ Desktop ______________________________*/
 
 @media (min-width: 450px) {
