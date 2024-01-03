@@ -91,10 +91,7 @@ button{
   font-size:20px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
   color: white;
-  position: fixed;
-  bottom: 5rem;
-  margin-left: 10%;
-  z-index: 1;
+ 
 }
 
 .santa{
@@ -116,78 +113,93 @@ button{
 
 
 
-/* Desktop */
+/* ______________________ Desktop ______________________________*/
 
 @media (min-width: 450px) {
-  h1{
-    text-align: center;
-    padding: 1rem;
-    font-size: 70px;   
-}
+      h1{
+        text-align: center;
+        padding: 1rem;
+        font-size: 70px;   
+    }
+
+    dialog.video.modal.js-modal{
+     height: 50vh;
+      width: 50vw;
+  }
+
+  .material-symbols-outlined{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+
+    #txt-welcom{
+      font-family: Mountains of Christmas;
+      font-size: 50px;
+      text-align: center;
+      color: red;
+      text-shadow: 1px 1px 2px green, 0 0 1em blue, 0 0 0.2em green;
+    }
 
 
-#txt-welcom{
-  font-family: Mountains of Christmas;
-  font-size: 50px;
-  text-align: center;
-  color: red;
-  text-shadow: 1px 1px 2px green, 0 0 1em blue, 0 0 0.2em green;
-}
+    .countdown_style{
+      font-size: xx-large;
+      text-align: center;
+      padding: 10px;
+      margin: auto;
 
+    }
 
-.countdown_style{
-  font-size: xx-large;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-  color: white;
-  margin: auto;
-  position: fixed;
-  left: 23rem;
-  bottom: 5rem;
-}
+    .modal{
+      display: none;
+      margin: auto;
+    }
 
-.modal{
-  display: none;
-  margin: auto;
-}
+    iframe{
+      width:560px;
+      height: 315px;
+     
+    }
 
-iframe{
-  width:560px;
-  height: 315px;
-}
+    .christmas-tree{
+      z-index: 1;
+      position: absolute;
+      top: 50%;
+      left: 3%;
+    }
 
-.reindeer{
-  height: auto;
-}
+    .reindeer-container{
+      position: relative;
+      z-index: 2;
+    }
+    .reindeer{
+      height: auto;
+      
+    }
 
-.gift{
-margin-top: 4vw;
-margin-left: 10vh;  
- 
-}
+    .santa{
+      height: 55vh;
+      position: fixed;
+      bottom: 0;
+      right: 1em;
+      
+    }
 
-.santa{
-  height: 55vh;
-  position: fixed;
-  bottom: 0;
-  right: 1em;
-  
-}
+    .pictures{
+      display: flex;
+    }
 
-.pictures{
-  display: flex;
-}
-
-body {
-  margin: 0;
-  overflow: hidden;
-}
-.snowflake {
-  position: absolute;
-  background-color: #fff;
-  border-radius: 50%;
-  pointer-events: none;
-  user-select: none;
-  filter: blur(3px);
-}
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+    .snowflake {
+      position: absolute;
+      background-color: #fff;
+      border-radius: 50%;
+      pointer-events: none;
+      user-select: none;
+      filter: blur(3px);
+    }
 }
 
