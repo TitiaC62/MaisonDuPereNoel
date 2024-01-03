@@ -1,8 +1,18 @@
+
+textarea#adress{
+    width: 90vw;   
+ }
+
+textarea#message{
+   width: 90vw;
+   
+}
+
 .form-container{
     display: flex;
     justify-content: center;
-   margin-top: 10vh;
-}
+    margin-top: 10vh;
+ }
 
 form{
     color: white;
@@ -10,5 +20,23 @@ form{
     padding: 20px;
     border-radius: 8px;
     background-color: #050426;
-    
+        
+ }
+
+
+/* ______________________ Desktop ______________________________*/
+
+@media (min-width: 450px){
+
+    textarea#adress{
+        width: 50vw;
+        
+     }
+    textarea#message{
+        width: 50vw;
+        height: 30vh;
+        
+     }
+
+
 }
