@@ -52,6 +52,26 @@ button{
   color: red;
 }
 
+dialog.modal.js-modal{
+    height: 50vh;
+     width: 50vw;
+    
+}
+
+p.modal__quote {
+  text-align: center;
+  position: relative;
+  margin-top: 20%;
+  margin-left: 20%;
+}
+
+.js-author{
+    text-align: end;
+    font-style: italic;
+}
+
+/* ______________________ Desktop ______________________________*/
+
 @media (min-width: 450px) {
     .advent{
         height: 50vh;
@@ -72,6 +92,7 @@ button{
       
     }
 
+   
 }
 
 
