@@ -12,6 +12,8 @@ textarea#message{
     display: flex;
     justify-content: center;
     margin-top: 10vh;
+    width: 70vw;
+    margin: auto;
  }
 
 form{
@@ -23,6 +25,21 @@ form{
         
  }
 
+ .title-form{
+   color: #000;
+   margin-top: 1rem;
+   
+ }
+
+ textarea#adress{
+   width: 75vw;
+   
+}
+textarea#message{
+   width: 75vw;
+   height: 50vh;
+   
+}
 
 /* ______________________ Desktop ______________________________*/
 
@@ -38,5 +55,9 @@ form{
         
      }
 
+   .title-form{
+      color: #fff;
+      font-size: 6rem;
+   }
 
 }

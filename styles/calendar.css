@@ -54,7 +54,8 @@ button{
 
 dialog.modal.js-modal{
     height: 50vh;
-     width: 50vw;
+     width: 85vw;
+     margin-top: 10vh;
     
 }
 

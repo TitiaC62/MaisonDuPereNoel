@@ -2,6 +2,11 @@
     margin: 0;
 }
 
+h1{
+    text-align: center;
+    padding: 1rem;
+    font-size: 70px;   
+}
 
 a{
     text-decoration: none;
@@ -31,6 +36,17 @@ li{
 svg{
     margin: 15px;
 }
+
+.blink {
+    font-family: Mountains of Christmas ;
+    animation: blink 1s infinite;
+  }
+  @keyframes blink { 
+    0% { color: red;}
+    50% {  color: green; } 
+    100% {  color: red; }
+  }
+
 
 @media (max-width: 450px) {
     ul.navbar-nav.mr-auto{

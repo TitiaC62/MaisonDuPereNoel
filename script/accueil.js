@@ -64,6 +64,7 @@ function updateCountdown() {
 
     if (isMobile){
         countdownElement.innerHTML = `J-${days} ${hours}h ${minutes}Min  avant Noël !`;
+        
     }
 }
 
@@ -156,3 +157,12 @@ const createSnowfall = () => {
  };
 
  createSnowfall();
+
+ //sapins
+ const isMobile = window.innerWidth <= 450; 
+ const christmasTrees = document.querySelector(".christmas-tree")
+
+ if (isMobile){
+    christmasTrees.style.display = "none";
+    
+}

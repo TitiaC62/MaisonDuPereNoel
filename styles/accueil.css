@@ -66,31 +66,19 @@ button{
 
 #txt-welcom{
   font-family: Mountains of Christmas;
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
   color: red;
   text-shadow: 1px 1px 2px green, 0 0 1em blue, 0 0 0.2em green;
 }
 
-.blink {
-    font-family: Mountains of Christmas ;
-    font-size: 50px;
-    left: 27rem;
-    bottom: 1rem;
-    position: fixed;
-    animation: blink 1s infinite;
-  }
-  @keyframes blink { 
-    0% { color: red;}
-    50% {  color: green; } 
-    100% {  color: red; }
-  }
 
   
 .countdown_style{
   font-size:20px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
   color: white;
+  text-align: center;
  
 }
 
@@ -111,17 +99,11 @@ button{
     display: flex;
   }
 
-.christmas-tree{
-  display: none;
-}
+
 /* ______________________ Desktop ______________________________*/
 
 @media (min-width: 450px) {
-      h1{
-        text-align: center;
-        padding: 1rem;
-        font-size: 70px;   
-    }
+    
 
     dialog.video.modal.js-modal{
       height: 50vh;
