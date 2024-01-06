@@ -1,0 +1,55 @@
+form{
+    background-color: #27cd8d;  
+    padding: 1rem;
+    margin-top: 20vh;
+    border: #1b885e 3px solid;
+    border-radius: 5px;
+  
+}
+
+input{
+    display: flex;
+}
+
+.signin-container{
+    display: flex;
+    justify-content: center;
+}
+
+.form-button{
+    background-color: rgb(242, 84, 84);
+    border-radius: 25px;
+    padding: 5px;
+    margin: auto;
+}
+
+.form-title{
+    text-align: center;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.santa-connexion{
+    height: 20vh;
+    width: auto;
+
+}
+
+
+/* ______________________ Desktop ______________________________*/
+
+@media (min-width: 450px){
+    .santa-connexion{
+        height: 50vh;
+        width: auto;
+        align-items: center;
+        margin-top: 20vh;
+    }
+    
+    .div-connexion{
+    display: flex;
+   justify-content: center;
+    }
+    
+   
+}

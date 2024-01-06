@@ -16,6 +16,12 @@ textarea#message{
     margin: auto;
  }
 
+ 
+input{
+   display: flex;
+   
+}
+
 form{
     color: white;
     border: 2px solid #ccc;
