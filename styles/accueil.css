@@ -1,6 +1,6 @@
 
 #prenom{
-    color: red
+    color: #D62828
 }
 
 h1{
@@ -61,15 +61,15 @@ button{
   'wght' 400,
   'GRAD' 0,
   'opsz' 24;
-  color: red;
+  color: #D62828
 }
 
 #txt-welcom{
   font-family: Mountains of Christmas;
   font-size: 30px;
   text-align: center;
-  color: red;
-  text-shadow: 1px 1px 2px green, 0 0 1em blue, 0 0 0.2em green;
+  color: #D62828;
+  text-shadow: 1px 1px 2px #3ca72e, 0 0 1em blue, 0 0 0.2em #3ca72e;
 }
 
 
@@ -120,8 +120,8 @@ button{
       font-family: Mountains of Christmas;
       font-size: 50px;
       text-align: center;
-      color: red;
-      text-shadow: 1px 1px 2px green, 0 0 1em blue, 0 0 0.2em green;
+      color: #D62828;
+      text-shadow: 1px 1px 2px #3ca72e, 0 0 1em blue, 0 0 0.2em #132A13;
     }
 
 

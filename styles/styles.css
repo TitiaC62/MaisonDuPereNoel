@@ -42,9 +42,9 @@ svg{
     animation: blink 1s infinite;
   }
   @keyframes blink { 
-    0% { color: red;}
-    50% {  color: green; } 
-    100% {  color: red; }
+    0% { color:#d62828;}
+    50% {  color: #3ca72e; } 
+    100% {  color: #d62828; }
   }
 
 

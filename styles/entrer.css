@@ -7,7 +7,7 @@
 .button--entrer{
     border-radius: 50%;
     padding: 40px;
-    background-color: rgb(198, 32, 32);
+    background-color: #d62828;
     height: 150px;
     width: 150px;
     color: white;
@@ -26,7 +26,7 @@
 .text-entrer{
     text-align: center;
     font-size: xx-large;
-    color: red;
+    color: #d62828;
     margin-top: 50vh; 
     
 }
