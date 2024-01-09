@@ -7,7 +7,13 @@ h1{
   text-align: center;
   padding: 1rem;
   font-size: 30px;
-  
+}
+
+.stars{
+  height: 12vh;
+  position: fixed;
+  top: 12vh;
+  z-index: 0;
 }
 
 .reindeer{
@@ -66,7 +72,7 @@ button{
 
 #txt-welcom{
   font-family: Mountains of Christmas;
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
   color: #D62828;
   text-shadow: 1px 1px 2px #3ca72e, 0 0 1em blue, 0 0 0.2em #3ca72e;
@@ -86,19 +92,38 @@ button{
   height: 40vh;
   position: fixed;
   bottom: 0;
-  right: 1em;
+  right: 0 ;
+  
   
 }
 
 .gift{
   width: 50vw;
-  margin-top: 3vh;
+
   }
   
   .pictures{
     display: flex;
   }
 
+  form{
+    display: none;
+    background-color: #c8c7f0;
+    height: 60vh;
+    width: 70vw;
+   
+    
+  }
+
+  input,
+  label {
+    padding-left: 10px;
+  }
+
+  #message{
+    width: 60vw;
+    height: 30vh;
+  }
 
 /* ______________________ Desktop ______________________________*/
 
@@ -108,13 +133,29 @@ button{
     dialog.video.modal.js-modal{
       height: 50vh;
       width: 50vw;
-  }
+    }
 
-  .material-symbols-outlined{
-    position: absolute;
-    top: 5px;
-    right: 5px;
-  }
+    .material-symbols-outlined{
+      position: absolute;
+      top: 5px;
+      right: 5px;
+    }
+
+    .stars{
+      height: 32vh;
+      position: fixed;
+      right: 2em;
+      
+    }
+
+    form{
+      width: 30vw;
+    }
+
+    #message{
+      width: 20vw;
+      height: 30vh;
+    }
 
     #txt-welcom{
       font-family: Mountains of Christmas;

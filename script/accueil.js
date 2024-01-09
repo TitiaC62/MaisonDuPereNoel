@@ -166,3 +166,14 @@ const createSnowfall = () => {
     christmasTrees.style.display = "none";
     
 }
+
+//Etoiles
+
+const stars = document.querySelector(".stars")
+
+const form = document.querySelector("form")
+
+stars.addEventListener("click", () => {
+    form.style.display = "block"
+})
+
