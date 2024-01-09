@@ -1,8 +1,8 @@
-.lutin--image{
+.lutin--container{
     position: relative;
 }
 
-img{
+.lutin--image{
     display: flex;
     height: 50vh;
     justify-content: space-around;
@@ -10,3 +10,38 @@ img{
     position: fixed;
 }
 
+.gift--container{
+    display: flex;
+    justify-content: center;
+}
+
+.gift{
+    padding: 5px;
+    height: 10vh;
+}
+
+.christmas-tree{
+    display: none;
+}
+/* ______________________ Desktop ______________________________*/
+@media (min-width: 450px){
+    .gift{
+        margin-top: 30px;
+        padding: 10px;
+        height: 25vh;
+    }
+
+    .gift2, 
+    .gift4 {
+        margin-top: 70px;
+    }
+
+
+
+    .christmas-tree{
+        
+        display: flex;
+        height: 50vh;
+        justify-content: flex-end;
+    }
+}
