@@ -44,21 +44,18 @@ iframe{
   }
 
 
-.video{
-    display: none;  
-}
 
 .modal{
-    display: none;
+   
     height: auto;
     width: 100vw;
     z-index: 1;
 }
 
 button{
-   background: none; 
-   float:inline-start;
-   border: none;
+  background: none; 
+  float:inline-start;
+  border: none;
 }
 
 .material-symbols-outlined {
@@ -131,12 +128,12 @@ button{
     
 
     dialog.video.modal.js-modal{
-      height: 50vh;
-      width: 50vw;
+      height: 60vh;
+      width: 60vw;
     }
 
     .material-symbols-outlined{
-      position: absolute;
+      
       top: 5px;
       right: 5px;
     }
@@ -150,6 +147,7 @@ button{
 
     form{
       width: 30vw;
+     
     }
 
     #message{
@@ -175,7 +173,6 @@ button{
     }
 
     .modal{
-      display: none;
       margin: auto;
     }
 

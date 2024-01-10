@@ -23,12 +23,13 @@ const idInterval = setInterval(function(){
   });
 
   const modal = document.querySelector(".js-modal")
-  const closeModal = document.querySelector('.modal__button')
-
-closeModal.addEventListener('click', () =>{
-    modal.style.display = 'none'
+  const closeModal = document.querySelector(".modal__button")
+  
+  closeModal.addEventListener('click', () =>{
+    modal.style.display = "none"
 
 })
+
 
 //Décompte
 function updateCountdown() {
