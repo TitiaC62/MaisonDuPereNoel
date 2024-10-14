@@ -7,7 +7,10 @@
 
 .background--accueil{
     background: url("../assets/images/background/christmas-4139679_1280.jpg");
-    background-size: 180%;
+    background-size:120vw;
+    background-repeat: no-repeat;
+
+    
     
 }
 

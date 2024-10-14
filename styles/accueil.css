@@ -1,4 +1,8 @@
 
+html{
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
 #prenom{
     color: #D62828
 }
@@ -100,7 +104,7 @@ button{
 }
 
 .gift{
-  width: 50vw;
+  display: flex;
 
   }
   
@@ -131,28 +135,31 @@ button{
 
 @media (min-width: 450px) {
     
-
+/* modal reindeer */
     dialog.video.modal.js-modal{
       height: 60vh;
-      width: 60vw;
+      width: 52vw;
     }
 
-    .material-symbols-outlined{
-      
-      top: 5px;
-      right: 5px;
+    svg{
+      margin: 0;
     }
 
+    .cancel{
+      width: 2em;
+      height: 2em;
+
+    }
+
+  
     .stars{
       height: 32vh;
       position: fixed;
       right: 2em;
-      
     }
 
     form{
       width: 30vw;
-     
     }
 
     #message{
@@ -174,11 +181,11 @@ button{
       text-align: center;
       padding: 10px;
       margin: auto;
-
     }
 
     .modal{
       margin: auto;
+      display: flex;
     }
 
     iframe{
@@ -219,13 +226,6 @@ button{
       margin: 0;
       overflow: hidden;
     }
-    .snowflake {
-      position: absolute;
-      background-color: #fff;
-      border-radius: 50%;
-      pointer-events: none;
-      user-select: none;
-      filter: blur(3px);
-    }
+   
 }
 
