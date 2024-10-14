@@ -47,11 +47,8 @@
 }
 
 .background--accueil{
-    background: url("../assets/images/background/trees-4741364_1920.png");
-    background-size: 100vw 100vh;
-    background-repeat: no-repeat
-    
-    
+    background: url("../assets/images/background/christmas-4427824.jpg");
+    background-size: contain;
 }
 
 .background--calendrier{
