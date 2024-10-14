@@ -1,27 +1,68 @@
-
-.entrer{
-    width: 100vw;
-    margin-top: 10vh;
+*{
+    box-sizing: border-box;
 }
 
 .button--entrer{
     border-radius: 50%;
-    padding: 40px;
     background-color: #d62828;
-    height: 150px;
+    height: 80px;
     width: 150px;
     color: white;
    
 }
 
-
-.grid-button{
-    display: grid;
-    align-items: center;
-    grid-column: 2/3;
-    margin: 0 auto;
+#entrerButton{
+    text-decoration: none;
+    font-size: 2em;
+    color: white;
 }
 
+.bigshot-one-regular {
+    font-family: "Bigshot One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.grid{
+    display: grid;
+    grid-template-columns: 20px 1fr 20px;
+    grid-auto-rows: 1fr 1fr 1fr;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+   justify-items: center;
+   
+}
+
+.grid-text{
+    grid-column: 2/3;
+    grid-row: 2;
+}
+
+.grid-button{
+  grid-column: 1/3;
+  grid-row: 3;
+}
+
+
+.text-entrer{
+    text-align: center;
+    font-size: 2em;
+    color: #d62828;
+    margin-bottom: 20%; 
+    color: white;
+}
+
+@media screen and (min-width:768px) {
+    
+.button--entrer{
+    height: 130px;
+    width: 300px;  
+}
+
+#entrerButton{
+    font-size: 3em;
+}
 
 .text-entrer{
     text-align: center;
@@ -29,4 +70,6 @@
     color: #d62828;
     margin-top: 50vh; 
     
+}
+
 }

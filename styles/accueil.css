@@ -24,7 +24,9 @@ h1{
     animation-name: rotate;
     animation-duration: 0.7s;
     animation-direction: reverse;
+    
 }
+
 
 iframe{
   height: auto;
