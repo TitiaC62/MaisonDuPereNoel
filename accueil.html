@@ -21,6 +21,8 @@
     <title>Maison du Père Noël</title>
 </head>
 <body class="background--accueil">
+
+  <!-- navbar -->
     <header>
         <nav class="navbar navbar-expand-sm ">
         <a class="navbar-brand" href="accueil.html">
@@ -62,12 +64,12 @@
     </header>
 
    
-
+<!-- fenetre prenom -->
     <h1>
         <p id="prenom"> </p>
     </h1>
 
-    <div>
+    <!-- <div>
       <img src="/assets/images/accueil/stars-152191_1280.png" alt="stars" class="stars">
     
       <form >
@@ -85,8 +87,10 @@
       
         <input type="submit" value="Envoyer">
       </form>
-    </div>
+    </div> -->
 
+
+    <!-- Texte d'accueil et compteur -->
     <div id="txt-welcom">   
     </div>
 
@@ -96,38 +100,37 @@
     
     
     <div class="pictures">
+      <!-- mobil arbres
       <div class="christmas-tree" >
         <img  src="/assets/images/accueil/christmas-tree-2524_256.gif" alt="">
         <img  src="/assets/images/accueil/christmas-tree-2524_256.gif" alt="">
         
-      </div>
+      </div> -->
     
-        <div class="video_click reindeer-container">
-            <img src="./assets/images/accueil/16832-removebg-preview.png" class="reindeer" alt="reindeer">
-        </div>
+      <!-- reindeer -->
+      <div class="video_click reindeer-container">
+          <img src="./assets/images/accueil/16832-removebg-preview.png" class="reindeer" alt="reindeer">
+      </div>
 
-        <div class="gift">
-          <a href="/lutins.html">
-            <img src="./assets/images/accueil/vecteezy_cute-gift-shape-illustration-design_7802231-removebg-preview.png" class="gift" alt="gift">
-          </a>  
-        </div>
+      <!-- reindeer to video -->
+      <dialog class="video modal js-modal " >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="modal__button cancel"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
+
+              <iframe src="https://www.youtube.com/embed/7gtjgnRS_Ts?si=9SXhxLQWLKcin4mV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </dialog>             
+            
+      <!-- gifts to lutins -->
+      <div class="gift">
+        <a href="/lutins.html">
+          <img src="./assets/images/accueil/vecteezy_cute-gift-shape-illustration-design_7802231-removebg-preview.png" class="gift" alt="gift">
+        </a>  
+      </div>
        
          
     </div>
     
-    <dialog class="video modal js-modal" >
-          <form class="modal__button" method="dialog">
-            <button type="submit">
-                <span class="material-symbols-outlined">
-                    cancel
-                </span> 
-            </button>
-        </form>
-         <iframe src="https://www.youtube.com/embed/7gtjgnRS_Ts?si=9SXhxLQWLKcin4mV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-            
-    </dialog>             
-            
+    
+    <!-- santa claus to contact -->
     <div class="santa">
       <a href="/contact.html">
                 <img src="./assets/images/accueil/santa-claus-2991653_1280.png" class="santa" alt="santa">
@@ -137,7 +140,7 @@
  
    
    
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="./script/accueil.js"></script>
