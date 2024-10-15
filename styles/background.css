@@ -7,11 +7,8 @@
 
 .background--accueil{
     background: url("../assets/images/background/christmas-4139679_1280.jpg");
-    background-size:120vw;
     background-repeat: no-repeat;
-
-    
-    
+    overflow-y: hidden;
 }
 
 .background--calendrier{
@@ -38,11 +35,11 @@
 
 
 
+/* tablet */
+
+@media screen and (min-width :450px) and (max-width:768px) {
 
 
-@media (min-width :450px) {
-
-/* Desktop */
 .background--entrer{
     background: url("../assets/images/background/entrer.jpg");
     background-size: 100vw 100vh;
@@ -50,14 +47,15 @@
 }
 
 .background--accueil{
-    background: url("../assets/images/background/christmas-4427824.jpg");
-    background-size: contain;
+    background: url("../assets/images/background/christmas-4139679_1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .background--calendrier{
     background: url("../assets/images/background/background-calendrier.jpg");
     background-size: 100vw 100vh;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
 }
 
 .background--lutins{
@@ -69,5 +67,41 @@
 .background--contact{
     background: url("../assets/images/background/background-contact.jpg");
 }
+
+}
+
+/* Desktop */
+
+@media screen and (min-width :1024px) {
+
+
+
+    .background--entrer{
+        background: url("../assets/images/background/entrer.jpg");
+        background-size: 100vw 100vh;
+        background-repeat: no-repeat
+    }
+    
+    .background--accueil{
+        background: url("../assets/images/background/christmas-4427824.jpg");
+        background-size: contain;
+    }
+    
+    .background--calendrier{
+        background: url("../assets/images/background/background-calendrier.jpg");
+        background-size: 100vw 100vh;
+        background-repeat: no-repeat
+    }
+    
+    .background--lutins{
+        background: url("../assets/images/background/background-lutins.jpg");
+        background-size: 100vw 100vh;
+        background-repeat: no-repeat
+    }
+    
+    .background--contact{
+        background: url("../assets/images/background/background-contact.jpg");
+    }
+    
 
 }
