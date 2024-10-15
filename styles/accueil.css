@@ -226,7 +226,7 @@ iframe{
     /* modal reindeer */
         dialog.video.modal.js-modal{
           height: auto;
-          width: 50vw;
+          width: 58vw;
         }
     
         svg{
@@ -302,7 +302,10 @@ iframe{
         }
 
         .reindeer{
-          height: auto; 
+          height: 40vh; 
+          position: relative;
+          bottom: 0%;
+          left:150%;
         }
     
         .santa{
