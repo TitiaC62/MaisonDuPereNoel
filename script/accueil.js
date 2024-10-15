@@ -53,7 +53,6 @@ function updateCountdown() {
         }
     }
     
-
     const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
     const hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
@@ -94,22 +93,5 @@ const santa = document.querySelector('.santa')
 
 
 
- //sapins
- const isMobile = window.innerWidth <= 450; 
- const christmasTrees = document.querySelector(".christmas-tree")
 
- if (isMobile){
-    christmasTrees.style.display = "none";
-    
-}
-
-//Etoiles
-
-const stars = document.querySelector(".stars")
-
-const form = document.querySelector("form")
-
-stars.addEventListener("click", () => {
-    form.style.display = "block"
-})
 
