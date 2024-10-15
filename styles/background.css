@@ -84,7 +84,8 @@
     
     .background--accueil{
         background: url("../assets/images/background/christmas-4427824.jpg");
-        background-size: contain;
+        background-size: cover;
+
     }
     
     .background--calendrier{

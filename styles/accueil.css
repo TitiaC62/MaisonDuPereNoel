@@ -1,9 +1,4 @@
 
-
-/* ______________________ tablet ______________________________*/
-
-@media screen and (min-width: 450px) and (max-width:768px){
- 
 html{
   overflow-y: hidden;
   overflow-x: hidden;
@@ -29,13 +24,6 @@ h1{
   padding: 1rem;
   font-size: 30px;
 }
-
-/* .stars{
-  height: 12vh;
-  position: fixed;
-  top: 12vh;
-  z-index: 0;
-} */
 
 .reindeer{
   height: 25vh;
@@ -71,9 +59,6 @@ iframe{
   }
 
 
-.christmas-tree{
-  display: none;
-}
 
 .modal{
    
@@ -148,104 +133,259 @@ button{
   #message{
     width: 60vw;
     height: 30vh;
-  }   
-
-}
-
-/* ______________________ Desktop ______________________________*/
-
-@media screen and (min-width: 768px) {
-    
-  /* modal reindeer */
-      dialog.video.modal.js-modal{
-        height: auto;
-        width: 50vw;
-      }
-  
-      svg{
-        margin: 0;
-      }
-  
-      .cancel{
-        width: 2em;
-        height: 2em;
-  
-      }
-  
-    
-      .stars{
-        height: 32vh;
-        position: fixed;
-        right: 2em;
-      }
-  
-      form{
-        width: 30vw;
-      }
-  
-      #message{
-        width: 20vw;
-        height: 30vh;
-      }
-  
-      #txt-welcom{
-        font-family: Mountains of Christmas;
-        font-size: 50px;
-        text-align: center;
-        color: #D62828;
-        text-shadow: 1px 1px 2px #3ca72e, 0 0 1em blue, 0 0 0.2em #132A13;
-      }
-  
-  
-      .countdown_style{
-        font-size: xx-large;
-        text-align: center;
-        padding: 10px;
-        margin: auto;
-      }
-  
-      .modal{
-        margin: auto;
-        display: flex;
-      }
-  
-      iframe{
-        width:560px;
-        height: 315px;
-       
-      }
-  
-      .christmas-tree{
-        z-index: 1;
-        position: absolute;
-        top: 50%;
-        left: 3%;
-      }
-  
-      .reindeer-container{
-        position: relative;
-        z-index: 2;
-      }
-      .reindeer{
-        height: auto;
-        
-      }
-  
-      .santa{
-        height: 55vh;
-        position: fixed;
-        bottom: 0;
-        right: 1em;
-        
-      }
-  
-      .pictures{
-        display: flex;
-      }
-  
-      body {
-        margin: 0;
-        overflow: hidden;
-      }
-     
   }
+  #prenom{
+    color: #D62828
+  }
+
+  
+  /* ______________________ tablet ______________________________*/
+  
+  @media screen and (min-width: 450px) and (max-width:768px){
+   
+  
+  h1{
+    text-align: center;
+    padding: 1rem;
+    font-size: 30px;
+  }
+  
+  /* .stars{
+    height: 12vh;
+    position: fixed;
+    top: 12vh;
+    z-index: 0;
+  } */
+  
+  .reindeer{
+    height: 25vh;
+    position: fixed;
+    bottom: -20px;
+    left: -25px;
+  
+  }
+  
+  .reindeer:hover{
+      animation-name: rotate;
+      animation-duration: 0.7s;
+      animation-direction: reverse;
+      
+  }
+  
+  
+  iframe{
+    height: auto;
+    width: 90vw;
+  }
+  
+  @keyframes rotate {
+      0% {
+        transform: rotate(0);
+      }
+      50%{
+          transform: rotate(40deg);
+      }
+      100% {
+        transform: rotate(-40deg);
+      }
+    }
+  
+  
+  .christmas-tree{
+    display: none;
+  }
+  
+  .modal{
+     
+      height: auto;
+      width: 100vw;
+      z-index: 1;
+  }
+  
+  button{
+    background: none; 
+    float:inline-start;
+    border: none;
+  }
+  
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+    color: #D62828
+  }
+  
+  #txt-welcom{
+    font-family: Mountains of Christmas;
+    font-size: 25px;
+    text-align: center;
+    color: #D62828;
+    text-shadow: 1px 1px 2px #3ca72e, 0 0 1em blue, 0 0 0.2em #3ca72e;
+  }
+  
+  
+  .countdown_style{
+    font-size:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: white;
+    text-align: center;
+   
+  }
+  
+  .santa{
+    height: 40vh;
+    position: fixed;
+    bottom: 0;
+    right: -70px ; 
+    
+  }
+  
+  .gift{
+    position: relative;
+    height: 40vh;
+    top: 5vh;
+  }
+    
+    .pictures{
+      display: flex;
+    }
+  
+    form{
+      display: none;
+      background-color: #c8c7f0;
+      height: 60vh;
+      width: 70vw;
+   
+    }
+  
+    input,
+    label {
+      padding-left: 10px;
+    }
+  
+    #message{
+      width: 60vw;
+      height: 30vh;
+    }   
+  
+  }
+  
+  /* ______________________ Desktop ______________________________*/
+  
+  @media screen and (min-width: 768px) {
+      
+    /* modal reindeer */
+        dialog.video.modal.js-modal{
+          height: auto;
+          width: 50vw;
+        }
+    
+        svg{
+          margin: 0;
+        }
+    
+        .cancel{
+          width: 2em;
+          height: 2em;
+    
+        }
+    
+      
+        .stars{
+          height: 32vh;
+          position: fixed;
+          right: 2em;
+        }
+    
+        form{
+          width: 30vw;
+        }
+    
+        #message{
+          width: 20vw;
+          height: 30vh;
+        }
+    
+        #txt-welcom{
+          font-family: Mountains of Christmas;
+          font-size: 50px;
+          text-align: center;
+          color: #D62828;
+          text-shadow: 1px 1px 2px #3ca72e, 0 0 1em blue, 0 0 0.2em #132A13;
+        }
+    
+    
+        .countdown_style{
+          font-size: xx-large;
+          text-align: center;
+          padding: 10px;
+          margin: auto;
+        }
+    
+        .modal{
+          margin: auto;
+          display: flex;
+        }
+    
+        iframe{
+          width:560px;
+          height: 315px;
+         
+        }
+    
+        .christmas-tree{
+          z-index: 1;
+          position: absolute;
+          top: 50%;
+          left: 3%;
+        }
+    
+        .reindeer-container{
+          position: relative;
+          z-index: 2;
+        }
+  
+        .reindeer:hover{
+          animation-name: rotate;
+          animation-duration: 0.7s;
+          animation-direction: reverse;
+          
+      }
+      
+      
+      @keyframes rotate {
+          0% {
+            transform: rotate(0);
+          }
+          50%{
+              transform: rotate(40deg);
+          }
+          100% {
+            transform: rotate(-40deg);
+          }
+        }
+        .reindeer{
+          height: auto;
+          
+        }
+    
+        .santa{
+          height: 55vh;
+          position: fixed;
+          bottom: 0;
+          right: 1em;
+          
+        }
+    
+        .pictures{
+          display: flex;
+        }
+    
+        body {
+          margin: 0;
+          overflow: hidden;
+        }
+       
+    }
