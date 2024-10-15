@@ -28,8 +28,8 @@ h1{
 .reindeer{
   height: 25vh;
   position: fixed;
-  bottom: -20px;
-  left: -25px;
+  bottom: 35%;
+  left:35%
 
 }
 
@@ -97,9 +97,9 @@ iframe{
 }
 
 .gift{
-  position: relative;
+  position: fixed;
   height: 40vh;
-  top: 5vh;
+  top:62%;
 }
   
   
@@ -137,10 +137,10 @@ iframe{
   }
   
   .reindeer{
-    height: 25vh;
+    height: 50vh;
     position: fixed;
-    bottom: -68px;
-    left: -85px;
+    bottom: -5%;
+    left: 0%;
   
   }
 
@@ -161,9 +161,7 @@ iframe{
       }
     }
   
-  .christmas-tree{
-    display: none;
-  }
+  
   
   .modal{
       height: auto;
@@ -199,8 +197,9 @@ iframe{
   
   .gift{
     position: relative;
-    height: 40vh;
-    top: 5vh;
+    height: 45vh;
+    top: 21%;
+    left:25%;
   }
     
     .pictures{
@@ -222,7 +221,7 @@ iframe{
   
   /* ______________________ Desktop ______________________________*/
   
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 769px) {
       
     /* modal reindeer */
         dialog.video.modal.js-modal{
