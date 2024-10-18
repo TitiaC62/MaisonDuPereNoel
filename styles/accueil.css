@@ -86,6 +86,8 @@ iframe{
 
 .pictures{
   display: flex;
+  height: 100vh;
+  width: 100vw;
 }
 
 .santa{
@@ -302,10 +304,10 @@ iframe{
         }
 
         .reindeer{
-          height: 40vh; 
+          height: 45vh; 
           position: relative;
           bottom: 0%;
-          left:150%;
+          left:86%;
         }
     
         .santa{
@@ -314,10 +316,15 @@ iframe{
           bottom: 0;
           right: 1em;  
         }
-    
-        .pictures{
-          display: flex;
+
+          
+        .gift{
+          position: relative;
+          height: 45vh;
+          top: 10%;
+         left: 20%;
         }
+          
     
         body {
           margin: 0;
