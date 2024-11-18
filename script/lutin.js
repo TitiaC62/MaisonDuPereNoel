@@ -69,5 +69,19 @@ const createSnowfall = () => {
 
 
  //Cadeau rose
+ const lightPinkGift = document.getElementById("js-lightpink-gift")
+ const purpleGift = document.getElementById("js-purple-gift")
  const pinkGift = document.getElementById("js-pink-gift")
+ const greenGift = document.getElementById("js-green-gift")
+ const blueGift = document.getElementById("js-blue-gift")
 
+ OpenGift = () =>{
+    lightPinkGift.style.display="none",
+    purpleGift.style.display="none",
+    pinkGift.style.display="none",
+    greenGift.style.display="none",
+    blueGift.style.display="none"
+
+ }
+
+ OpenGift()
