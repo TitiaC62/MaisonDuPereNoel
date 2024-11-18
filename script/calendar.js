@@ -1,6 +1,8 @@
 //import citations modales
 import { quotes } from "./quotes.js";
 
+
+
 //changement de couleurs au passage de la souris
 
 const adventNumber = document.querySelectorAll(".advent__number")

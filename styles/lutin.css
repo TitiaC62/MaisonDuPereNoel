@@ -37,6 +37,16 @@ html{
         height: 25vh;
     }
 
+    .gift--container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .gift1{
+       display:flex;
+       flex-direction: column;
+    }
+
     .gift2, 
     .gift4 {
         margin-top: 70px;
@@ -57,5 +67,13 @@ html{
         display: flex;
         height: 50vh;
         justify-content: flex-end;
+    }
+
+    .block-pink{
+        background-color: rgb(237, 186, 224);
+        margin-top:  -50px;
+        margin-left: 10px;
+        width: 10vw;
+        height: 100vh;
     }
 }

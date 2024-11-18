@@ -63,3 +63,11 @@ const createSnowfall = () => {
  };
 
  createSnowfall();
+
+
+ //Cadeaux
+
+
+ //Cadeau rose
+ const pinkGift = document.getElementById("js-pink-gift")
+
