@@ -86,9 +86,9 @@ const playSong = () => {
 }
 
 const santa = document.querySelector('.santa')
-    santa.addEventListener('mouseover', () => {
-           playSong()
-          
+    santa.addEventListener('mouseover',function () {
+            playSong()
+
         })
 
 
