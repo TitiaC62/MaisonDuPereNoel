@@ -29,6 +29,52 @@ html{
 .christmas-tree{
     display: none;
 }
+
+.block-lightpink{
+    background-color: rgb(237, 186, 224); 
+   
+}
+
+.block-purple{
+    background-color: rgb(119, 65, 221);
+
+}
+.block-pink{
+    background-color: rgb(122, 43, 103);
+
+}
+.block-green{
+    background-color: rgb(79, 122, 72);
+
+}
+.block-blue{
+    background-color: rgb(148, 211, 237);
+
+}
+
+.block-gift{
+    display: none;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    text-align: center;
+    width: 50%;
+    height: 60vh;
+    margin: -20px 15px;
+    
+   
+}
+
+.block-lightpink{
+    width: 60%;
+}
+
+.block-green,
+.block-pink
+{
+    height: 60%;
+    width: 65%;
+}
+
 /* ______________________ Desktop ______________________________*/
 @media (min-width: 450px){
     .gift{
@@ -42,11 +88,20 @@ html{
         justify-content: center;
     }
 
-  
-
     .gift2, 
     .gift4 {
         margin-top: 70px;
+    }
+
+    .block-gift{
+        display: none;
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+        text-align: center;
+        width: 80%;
+        height: 60vh;
+        margin: -75px 20px;
+       
     }
 
     .snowflake {
@@ -66,36 +121,4 @@ html{
         justify-content: flex-end;
     }
 
-    .block-lightpink{
-        background-color: rgb(237, 186, 224); 
-       
-    }
-
-    .block-purple{
-        background-color: rgb(119, 65, 221);
-   
-    }
-    .block-pink{
-        background-color: rgb(122, 43, 103);
-
-    }
-    .block-green{
-        background-color: rgb(79, 122, 72);
- 
-    }
-    .block-blue{
-        background-color: rgb(148, 211, 237);
-
-    }
-
-    .block-gift{
-        display: none;
-        writing-mode: vertical-lr;
-        text-orientation: upright;
-        text-align: center;
-        width: 80%;
-        height: 60vh;
-        margin: -75px 20px;
-       
-    }
 }
