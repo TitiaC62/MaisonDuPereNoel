@@ -93,10 +93,9 @@ html{
         writing-mode: vertical-lr;
         text-orientation: upright;
         text-align: center;
-        width: 10vw;
+        width: 80%;
         height: 60vh;
-        padding:50%
-
+        margin: -75px 20px;
        
     }
 }
