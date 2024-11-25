@@ -1,4 +1,7 @@
 let button = document.getElementById("button");
+let image = document.getElementById("image");
+let pokeNumber = document.getElementById("number");
+let pokeName = document.getElementById("name");
 
 const changePokemon = async () =>{
     // Math.random => permet de prendre un chiffre en [0,1[ 
@@ -13,9 +16,12 @@ const changePokemon = async () =>{
     let response = await fetch(requestString);
     let data = await response.json()
 
-    console.log(data)
+    image.src = data.sprites.front_default ;
+    pokeNumber.textContent = `#${data.id}`;
+    pokeName.textContent = data.name;
 
         
 }
 
+changePokemon();
 button.addEventListener("click", changePokemon);
