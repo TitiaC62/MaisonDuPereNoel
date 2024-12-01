@@ -12,7 +12,7 @@ async function PersoStarWars() {
 
     console.log(data)
 
-    image.textContent = data.films;
+    image.src = data.films;
     PeopleGender.textContent = data.gender;
     PeopleName.textContent =data.name;
 }
