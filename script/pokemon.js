@@ -15,19 +15,18 @@ async function changePokemon  (element){
     let response = await fetch(requestString);
     let data = await response.json()
 
-    let image = document.querySelector(".image");
-    let pokeNumber = document.querySelector(".number");
-    let pokeName = document.querySelector(".name");
+    let pokeNumber = element.querySelector(".number");
+    let pokeName = element.querySelector(".name");
 
-    image.src = data.sprites.front_default ;
+    (element.querySelector(".image")).src = data.sprites.front_default ;
     pokeNumber.textContent = `#${data.id}`;
     pokeName.textContent = data.name;    
 }
 
-const pokemonsEl = document.querySelectorAll("section .button");
-  for (const pokemonEl of pokemonsEl) {
-    changePokemon(pokemonEl.parentElement);
-    pokemonEl.addEventListener("click", () => changePokemon(pokemonEl.parentElement));
+const elements = document.querySelectorAll("section .button");
+  for (const element of elements) {
+    changePokemon(element.parentElement);
+    element.addEventListener("click", () => changePokemon(element.parentElement));
   
 
 }
