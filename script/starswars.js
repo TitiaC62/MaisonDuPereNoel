@@ -1,8 +1,8 @@
 // API Star wars
-let button = document.getElementById("button");
-let image = document.getElementById("image");
-let PeopleGender = document.getElementById("gender");
-let PeopleName = document.getElementById("name");
+
+let image = document.querySelector(".image");
+let PeopleGender = document.querySelector(".gender");
+let PeopleName = document.querySelector(".name");
 
 async function PersoStarWars() {
     let randomNumber = Math.ceil(Math.random()*82) + 1;
