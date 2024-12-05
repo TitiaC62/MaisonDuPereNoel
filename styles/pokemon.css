@@ -11,7 +11,13 @@ section{
     display: flex;
     justify-content: center;
     margin: 1vh;
+    font-weight: bolder;
+
     
+}
+
+.name{
+    text-transform: uppercase;
 }
 
 img{
@@ -21,6 +27,13 @@ img{
 section{
     display: inline-block;
     margin-left: 200px;
+    background: #CE0707;
+    background: -moz-linear-gradient(top, #CE0707 0%, #D2813A 79%, #D2813A 100%);
+    background: -webkit-linear-gradient(top, #CE0707 0%, #D2813A 79%, #D2813A 100%);
+    background: linear-gradient(to bottom, #CE0707 0%, #D2813A 79%, #D2813A 100%);
+    border-radius: 5%;
+    padding: 10px;
+    margin-top: 50px;
 }
 
 .button{
@@ -32,3 +45,6 @@ section{
     cursor: pointer;
 }
 
+.wrapper{
+    background-color: azure;
+}

@@ -38,6 +38,11 @@
     background-size: cover;
 }
 
+.background--pokemon{
+    background-image: url(/assets/images/background/pokemon.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
 
 /* tablet */
 
