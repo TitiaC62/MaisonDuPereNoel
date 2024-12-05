@@ -3,69 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/starswars.css">
+    <link rel="stylesheet" href="./styles/background.css">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    
     <script defer src="./script/starswars.js"></script>
 
     <title>Stars Wars</title>
 </head>
-<body>
-    
-    <div class="wrapper">
-        <div class="image-wrapper">
-            <img class="image" src="./assets/images/star wars/anakin-skywalker.jpg" alt="anakin-skywalker">
-        </div>
-    </div>
+<body class="background--starsWars">
 
-    <div class="header">
-        <div class="gender"></div>
-        <div class="name"></div>
-    </div>
+    <header>
+        <nav class="navbar navbar-expand-sm ">
+        <a class="navbar-brand" href="accueil.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-house-heart-fill" viewBox="0 0 16 16">
+            <path d="M7.293 1.5a1 1 0 0 1 1.414 0L11 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l2.354 2.353a.5.5 0 0 1-.708.707L8 2.207 1.354 8.853a.5.5 0 1 1-.708-.707z"/>
+            <path d="m14 9.293-6-6-6 6V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5zm-6-.811c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.691 0-5.018"/>
+          </svg>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="calendar.html">Calendrier de l'avent </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="lutins.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Cadeaux
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="lutins.html">Atelier des lutins</a>
+                <a class="dropdown-item" href="#">Partage tes cadeaux</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link " href="connexion.html">Connexion</a>
+            </li>
+          </ul>
+         
+        </div>
+      </nav>
+    </header>
+
+    
+
+    <select id="selectPerso">
+        <option value="">Choisissez un personnage</option>
+        <option value="Luke">Luke Skywalker</option>
+        <option value="Anakin">Anakin Skywalker</option>
+        <option value="Leia">Leia Organa</option>
+        <option value="R2-D2">R2-D2</option>
+        <option value="Han">Han Solo</option>
+        <option value="Chewbacca">Chewbacca</option>
+        <option value="Yoda">Yoda</option>
+        <option value="C3PO">C3PO</option>
+        <option value="Jabba">jabba</option>
+      </select>
+      
+      <div id="infoPerso">
+        <div id="imagePerso" alt="Image perso"> </div>
+        <p id="description"></p>
+      </div>
+
+  
         
 
-    <div class="wrapper">
-        <div class="image-wrapper">
-            <img class="image" src="./assets/images/star wars/c-3po.jpg" alt="c-3po">
-        </div>
-    </div>
-
-    <div class="header">
-        <div class="gender"></div>
-        <div class="name"></div>
-    </div>
-  
-
-    <div class="wrapper">
-        <div class="image-wrapper">
-            <img class="image" src="./assets/images/star wars/chewbacca.jpeg" alt="chewbacca">
-        </div>
-    </div>
-
-    <div class="header">
-        <div class="gender"></div>
-        <div class="name"></div>
-    </div>
     
-    <div class="wrapper">
-        <div class="image-wrapper">
-            <img class="image" src="./assets/images/star wars/darth-maul.jpg" alt="darth-maul">
-        </div>
-    </div>
-
-    <div class="header">
-        <div class="gender"></div>
-        <div class="name"></div>
-    </div>
-    
-    <div class="wrapper">
-        <div class="image-wrapper">
-            <img class="image" src="./assets/images/star wars/jabba-the-hutt.jpg" alt="jabba-the-hutt">
-        </div>
-    </div>
-
-    <div class="header">
-        <div class="gender"></div>
-        <div class="name"></div>
-    </div>
-  
     
 
 

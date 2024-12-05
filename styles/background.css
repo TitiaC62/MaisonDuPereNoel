@@ -32,7 +32,11 @@
     background: url("../assets/images/background/background-connexion.jpg");
 }
 
-
+.background--starsWars{
+    background-image: url(/assets/images/starWars/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 /* tablet */
