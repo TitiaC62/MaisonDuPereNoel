@@ -7,7 +7,7 @@ select.addEventListener('change', function() {
   
   switch(Perso) {
     case 'Luke':
-      image.src = './assets/images/starWars/luke.jpeg';
+      image.src = '/assets/images/starWars/luke.jpeg';
       description.textContent = 'Luke Skywalker, un jeune Jedi de Tatooine.';
       break;
     case 'Leia':

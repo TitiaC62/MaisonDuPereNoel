@@ -2,3 +2,19 @@ img{
     height: 200px;
     width: 200px;
 }
+
+.select--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+  }
+
+#infoPerso{
+    margin: 100px;
+}
+
+#description{
+    padding: 10px  0;
+    color: white;
+}
