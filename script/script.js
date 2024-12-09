@@ -15,7 +15,7 @@ if (savedName) {
     // Enregistre le prénom dans le stockage local
     localStorage.setItem('user_name', userName);
 
-    console.log();
+    
 }
 
 

@@ -53,7 +53,6 @@ html{
 }
 
 .block-gift{
-    display: none;
     writing-mode: vertical-lr;
     text-orientation: upright;
     text-align: center;
@@ -98,7 +97,9 @@ html{
     }
 
     .block-gift{
-        display: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         writing-mode: vertical-lr;
         text-orientation: upright;
         text-align: center;
